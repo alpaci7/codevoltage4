@@ -1,0 +1,94 @@
+{
+    "Log In" : "Log in",
+    "Sign Up" : "Sign up",
+    "Courses" : "Courses",
+    "Course" : "Course",
+    "Users" : "Users",
+    "Add Course" : "Add course",
+    "Show Courses" : "Show courses",
+    "Search" : "Search",
+    "Profile" : "Profile",
+
+
+    "UserName" : "Username",
+    "Password" : "Passsword",
+    "or" : "or",
+
+    "FullName" : "Fullname",
+    "Address" : "Address",
+    "Email" : "Email",
+    "Date Of Birth" : "Date of birth",
+    "Phone" : "Phone number",
+    "Gender" : "Gender",
+
+    "Day" : "Day",
+    "Month" : "Month",
+    "Year" : "Year",
+
+    "Male" : "Male",
+    "Female" : "Female",
+
+    "Forget Password" : "Password forgeted ?",
+    "Morocco" : "Morocco",
+
+    "Profile Not Found" : "No account for this Data !",
+    "Server Error" : "Server error !",
+    "Password Incorrect" : "Password incorrect !",
+    
+    "All Fields Are Required" : "All fields are required !",
+
+    "Success And Verify" : "Your account has been successfully created, please consult your mailbox to verify your account.",
+    "Success" : "Your account has been successfully edited.",
+    "Email Already Exist" : "This email already exists for an account, please choose another email.",
+    "Email Already Exist Connect" : "This email already exists for an account, please choose another email, or Log in with this email.",
+    "Username Already Exist" : "This username already exists for an account, please choose another username.",
+
+    "Log in With Google" : "Log in with Google",
+    "Sign up With Google" : "Sign up with Google",
+    "Log Out" : "Log Out",
+
+
+    "Welcome" : "Welcome to CodeVoltage",
+
+    "Edit Profile" : "Edit your Profile",
+
+    "Bad Id" : "Bad Id !",
+    "No Account" : "No user for this ID !",
+    "No Account Mail" : "No user for this mail !",
+    "Expired Token" : "Expired Token !",
+    "Wrong Token" : "Wrong Token !",
+
+    "Welcome & Verified" : "Welcome to CodeVoltage, Your account has been verified.",
+
+    "Change Password" : "Change Password",
+    
+    "Success & Mail" : "Check your Mail box to change passord.",
+
+    "Password Doesnt Match" : "Password doesn't match.",
+    "Password Success" : "Your password has been successfully changed, please Log in.",
+
+    "Robotics" : "Robotics",
+
+
+    "Duration" : "Duration",
+    "Price" : "Price",
+    "Hours" : "Hours",
+    "Months" : "Months",
+    "in" : "in",
+
+    "Show More" : "Show More",
+    "Subscribe" : "Subscribe",
+    
+    "Level" : "Level",
+    "Beginner" :"Beginner",
+    "Intermediate" : "Intermediate",
+    "Advanced" : "Advanced",
+
+    "Smart Home & IoT" : "Smart Home & IoT",
+    "Internet Of Things" : "Internet Of Things",
+    "PCB Design and Manufacturing" : "PCB Design and Manufacturing",
+    "MATLAB & SIMULINK" : "MATLAB & SIMULINK",
+    "Assembly" : "Assembly",
+    "VHDL - FPGA" : "VHDL - FPGA"
+
+}

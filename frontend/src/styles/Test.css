@@ -1,0 +1,45 @@
+.Test {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    border: 2px solid darkred;
+    font-weight: bold;
+  }
+  
+  .workspace {
+    width: 600px;
+    height: 400px;
+    background-color: lightgray;
+    border: 3px dashed darkgray;
+    position: relative; /* Allows absolutely positioned children */
+  }
+  
+  .workspace-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute; /* Allows free movement inside the workspace */
+    cursor: grab; /* Indicate the box is draggable */
+  }
+  

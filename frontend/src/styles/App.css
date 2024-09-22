@@ -1,0 +1,136 @@
+.warning{
+  color : #ff6a00;
+  background-color: #fce6d8;
+  border : 3px solid #ff6a00;
+  width: 80%;
+  height : 100%;
+  margin: 10px auto;
+  font-size: 22px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.error{
+  color : #ff0000;
+  background-color: #fcd8d8;
+  border : 3px solid #ff0000;
+  width: 80%;
+  height : 100%;
+  margin: 10px auto;
+  font-size: 22px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.message{
+  color : #005000;
+  background-color: #d9f0be;
+  border : 3px solid #02a202;
+  width: 80%;
+  height : 100%;
+  margin: 10px auto;
+  font-size: 22px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.home-message{
+  margin-top: 100px;
+}
+
+.missing{
+  border: 3px solid #f6944f;
+  background-color: #fce6d8;
+}
+
+
+.missing-error{
+  border: 3px solid #ff3131;
+  background-color: #f8c1c1;
+}
+
+
+[data-theme = 'light']{
+  --body-background: #c4cad0;
+  --color: black;
+  --heading-color: #02466b;
+  --hover-color: #e1e1e1;
+  --hover-background-color: #799daa;
+  --nav-color: rgb(206, 216, 221);
+  --nav-hover: #799daa;
+  --form-background: #e4e4e4de;
+  --course-container: #becccdc1; 
+  --course-container-container: #e0e0e07d;
+  --course-container-container-children: #cdd8daca;
+  --container-children: #b1c3c3;
+  --input-background-color: #ededed;
+  --button-background-color: #a7bbc9;
+  --button-hover-background-color: #405f69;
+  --button-disabled-background-color: #6c98a6;
+  --button-subscribe: #96c29d;
+  --button-subscribe-hover: #56725b;
+
+
+
+}
+
+[data-theme = 'dark']{
+  --body-background: #0b1e28;
+  --color: white;
+  --heading-color: #c1dcea;
+  --hover-color: #222222;
+  --hover-background-color: #6e6e6e;
+  --nav-color: #446d7c;
+  --nav-hover: #899fa6;
+  --form-background: #5c5959cc; 
+  --course-container: #384e52bc;
+  --course-container-container: #254a4886;
+  --course-container-container-children: #0e5251ca;
+  --container-children: #14504f;
+  --input-background-color: #8f8f8f;
+  --button-background-color: #4e737f;
+  --button-hover-background-color: #405f69;
+  --button-disabled-background-color: #385b66;
+  --button-subscribe: #366c40;
+  --button-subscribe-hover: #96c29d;
+
+
+}
+body{
+  background-color: var(--body-background);
+  color: var(--color);
+}
+
+p{
+  color: var(--color);
+}
+h2,li{
+  color: var(--heading-color);
+}
+
+
+  
+p{
+  font-size: 23px;
+}
+h2{
+  font-size: 28px;
+  margin : 0px 10px 0px 10px;
+}
+h3{
+  font-size: 27px;
+}
+h4{
+  font-size: 26px;
+}
+h5{
+  font-size: 25px;
+}
+ol{
+  text-align: left;
+  font-size: 24px;
+}

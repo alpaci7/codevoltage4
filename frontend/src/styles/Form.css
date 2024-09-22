@@ -1,0 +1,161 @@
+.form {
+    width: 100%;
+    height: fit-content;
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: var(--form-background);
+    margin-bottom: 200px;
+}
+.form-bordred{
+    border: 2px solid #898989;
+    border-radius: 20px;
+}
+.form-parent{
+    position: relative;
+    top: 100px;
+    width: 90%;
+    height: fit-content;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.form-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.form-buttons Button ,.Link{
+    padding: 20px;
+    margin: 10px;
+}
+.form-children{
+    margin: 30px auto;
+    padding: 30px auto;
+    display: block;
+}
+.form-children Input{
+    margin-left : 22px;
+}
+
+
+
+.Link{
+    color: var(--color);
+    font-size: 22px;
+}
+.Link:hover{
+    color: #167d9c;
+}
+
+.active{
+    width: 50%;
+    height: 10px;
+    background-color: #167d9c;
+}
+#span{
+    width: 50%;
+    height: 10px;
+
+}
+.connect-span{
+    display: flex;
+}
+
+
+Input{
+    width : 80%;
+    border : 3px solid #ccc;
+}
+
+#form-child{
+    margin: 30px 20px;
+    padding: 30px auto;
+    width : 88%;
+}
+
+
+.google-logo{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.google-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.google-auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.google-auth Button{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.or-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.line{
+    width: 45%;
+    height: 0px;
+    border: 2px solid var(--color);
+    padding: 0;
+    margin: 0;
+}
+.or{
+    margin-left: 45%;
+    border: 2px solid var(--color);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.change-password{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.google-auth h2{
+    text-align: center;
+}
+@media screen and (min-width : 1000px ) {
+    .form-parent{
+        position: relative;
+        top: 100px;
+        width: 60%;
+        height: fit-content;
+        margin: 0px auto;
+        padding: 0px auto;
+
+    }
+    .form-children{
+        display : flex;
+        justify-content: center;
+        align-items: center;
+    }
+    Input{
+        width : 60%;
+        border : 3px solid #ccc;
+    }
+    #form-child{
+        margin: 30px 20px;
+        padding: 30px auto;
+        width : 200px;
+    }
+}
+

@@ -1,0 +1,81 @@
+.side-bar{
+    position: fixed;
+    top: 35%;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#angle{
+    font-size: 50px;
+    cursor: pointer;
+    color: rgb(213, 40, 1);
+}
+.span{
+    display: none;
+}
+
+.social-container{
+    display: flex;
+    margin: 30px 10px;
+}
+
+.facebook, .instagram, .youtube{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.facebook:hover,  .instagram:hover, .youtube:hover{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: var(--nav-color);
+    margin-left: 8px;
+}
+.facebook:hover + .span,  .instagram:hover  + .span, .youtube:hover + .span{ 
+    width: 80px;
+    height: 50px;
+    background-color: var(--nav-color);
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.side-bar-social{
+    position: fixed;
+    top: 35%;
+    left: -500px;
+    transition: 0.8s ease-in-out;
+}
+.side-bar-social-active{
+    position: fixed;
+    top: 35%;
+    left: 5px;
+    transition: 0.8s ease-in-out;
+}
+.social-arrow{
+    position: fixed;
+    top: 50%;
+    left: 90px;
+    transition: 0.8s ease-in-out;
+}
+.social-arrow-active{
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transition: 0.8s ease-in-out;
+}
+
+@media screen and (min-width : 700px) {
+    .social-arrow{
+        top: 47%;
+    }
+    .social-arrow-active{
+        top: 47%;
+    }
+     
+}

@@ -1,0 +1,32 @@
+footer{
+    width: 80%;
+    height: fit-content;
+    background-color: var(--hover-color);
+    color: var(--color);
+    margin:0px;
+    padding: 40px 10%;
+
+}
+.local{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer h2{
+    font-size: 21px;
+}
+footer h3{
+    font-size: 20px;
+    width: 40%;
+
+}
+footer h4{
+    font-size: 19px;
+    width: 100%;
+}
+footer p{
+    font-size: 18px;
+
+}

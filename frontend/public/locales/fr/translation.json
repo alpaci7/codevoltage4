@@ -1,0 +1,99 @@
+{
+    "Log In" : "Se connecter",
+    "Sign Up" : "S'inscrire",
+    "Courses" : "Formations",
+    "Course" : "Formation",
+    "Users" : "Users",
+    "Add Course" : "Ajouter cours",
+    "Show Courses" : "Montrer cours",
+    "Search" : "Recherche",
+    "Profile" : "Profil",
+
+
+    "UserName" : "Nom d'utilisateur",
+    "Password" : "Mot de passe",
+    "or" : "ou",
+
+    "FullName" : "Nom complet",
+    "Address" : "Adresse",
+    "Email" : "Email",
+    "Date Of Birth" : "Date de naissance",
+    "Phone" : "Numéro de téléphone",
+    "Gender" : "Genres",
+
+    "Day" : "Jour",
+    "Month" : "Mois",
+    "Year" : "Année",
+
+    "Male" : "Homme",
+    "Female" : "Femme",
+
+    "Forget Password" : "Mot de passe oubliè ?",
+    "Morocco" : "Maroc",
+
+    "Profile Not Found" : "Aucun compte pour ces données !",
+    "Server Error" : "Erreur au serveur !",
+    "Password Incorrect" : "Mot de passe incorrect !",
+
+
+    "All Fields Are Required" : "Tous les champs sont obligatoires !",
+
+    "Success And Verify" : "Votre compte à été bien créé, veuillez consulter votre boite mail pour vérifier votre compte.",
+    "Success" : "Votre compte à été bien éditer.",
+    "Email Already Exist" : "Ce mail déjà éxiste pour un compte, veuillez changer l'email.",
+    "Email Already Exist Connect" : "Ce mail déjà éxiste pour un compte, veuillez changer l'email, où bien se connecter avec cet email",
+    "Username Already Exist" : "Ce nom d'utilisateur déjà éxiste pour un compte, veuillez changer le nom d'utilisateur.",
+
+
+    "Log in With Google" : "Se connecter avec Google",
+    "Sign up With Google" : "S'inscrire avec Google",
+    "Log Out" : "Se déconnecter",
+    "Welcome" : "Bienvenue chez CodeVoltage",
+
+    
+    "Edit Profile" : "Éditer votre profile",
+
+    "Bad Id" : "ID n'est pas valide !",
+    "No Account" : "Aucun compte pour cet ID !",
+    "No Account Mail" : "Aucun compte pour ce mail !",
+    "Expired Token" : "Token expiré !",
+    "Wrong Token" : "Mauvais Token !",
+
+    "Welcome & Verified" : "Bienvenue chez CodeVoltage, Votre compte est bien vérifié.",
+
+
+    "Change Password" : "Changer le mot de passe",
+    "Success & Mail" : "Veuillez consulter votre boite mail pour changer le mot de passe.",
+
+
+    "Password Doesnt Match" : "Les mot de passe sont différents.",
+    "Password Success" : "Le mot de passe à été bien modifier, veuillez se connecter.",
+
+
+    "Robotics" : "Robotique",
+
+    "Duration" : "Durée",
+    "Price" : "Prix",
+    "Hours" : "Heurs",
+    "Months" : "Mois",
+    "in" : "en",
+
+
+    "Show More" : "Voir plus",
+    "Subscribe" : "S'inscrire",
+
+    "Level" : "Niveau",
+    "Beginner" :"Débutant",
+    "Intermediate" : "Moyen",
+    "Advanced" : "Avancé",
+
+    "Smart Home & IoT" : "Domotique & IoT",
+    "Internet Of Things" : "Internet des Objets",
+    "PCB Design and Manufacturing" : "Conception et Fabrication des cartes électroniques",
+
+    "MATLAB & SIMULINK" : "MATLAB & SIMULINK",
+    "Assembly" : "Assembleur",
+    "VHDL - FPGA" : "VHDL - FPGA"
+
+
+}
